@@ -21,7 +21,7 @@ export default function DetailSong() {
           src={song.links.images[1].url}
           alt="avatar"
         />
-        <span className="text-xl text-white">Alan Walker</span>
+        <span className="text-xl text-white">{song.author}</span>
       </div>
     </div>
   );
